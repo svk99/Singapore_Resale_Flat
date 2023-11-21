@@ -39,7 +39,7 @@ flat_type_value=flat_type_mapping[flat_type_key]
 flat_model_value=flat_model_mapping[flat_model_key]
 
 if st.button('Submit'):
-    model=joblib.load('.../real_estate.joblib')
+    model=joblib.load('real_estate.joblib')
 
     independent_variables=[month,town_value,flat_type_value,floor_area,flat_model_value,lease_year,year,storey_lower,storey_upper]
     price_prediction=model.predict([independent_variables])
