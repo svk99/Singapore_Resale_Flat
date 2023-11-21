@@ -1,2 +1,2 @@
-import streamlit as st
-import joblib
+pip install streamlit
+pip install joblib
